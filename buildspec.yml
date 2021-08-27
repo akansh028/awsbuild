@@ -15,4 +15,4 @@ phases:
     commands:
       - echo Building the Docker image
       - docker images
-      - docker build -t awsbuild:latest
+      - docker build -t awsbuild:latest .
